@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:gravity="top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_margin="5dp"
+            android:src="@drawable/taman_tau"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:gravity="center"
+        android:text="Login Kenal TAU"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email:"
+        android:textColorHint="@android:color/black"
+        android:background="@android:color/white"
+        android:padding="12dp"
+        android:id="@+id/email_login"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:background="@android:color/white"
+        android:hint="Password:"
+        android:id="@+id/password_login"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9dp"
+        android:text="Login"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/btn_login"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or sign with google account"
+        android:gravity="center"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        />
+-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/forget_password"
+        android:text="Forget Password?"
+        android:shadowColor="@color/blue"
+        android:padding="4dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/signup_reg"
+        android:text="Don't have account?  Sign up here."
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>
+

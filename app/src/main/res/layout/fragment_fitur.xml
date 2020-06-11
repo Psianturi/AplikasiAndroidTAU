@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:background="@drawable/logo_tau"
+            android:layout_margin="6dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_avatar">
+
+            <TextView
+                android:id="@+id/txt_satu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF8E52"
+                android:layout_marginStart="4dp"
+                android:textSize="14dp"
+                android:text="TANRI ABENG UNIVERSITY" />
+
+            <TextView
+                android:id="@+id/txt_dua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:layout_marginStart="5dp"
+                android:layout_below="@+id/txt_satu"
+                android:text="Career Ready Profesional"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:background="#c7c7c7"/>
+    </RelativeLayout>
+
+
+    <!--<androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:titleTextColor="#fff"
+        android:id="@+id/chooserToolbar">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Feature : Machine Learning"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </androidx.appcompat.widget.Toolbar>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cardViewFaceDetection"
+            android:layout_marginBottom="65dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="11dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fitur_description"
+                android:textColor="@color/blue"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cardViewFaceDetection"
+            android:foreground="?selectableItemBackground"
+            app:cardCornerRadius="5dp"
+            tools:ignore="NotSibling">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gradient_holo_red" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="2dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_face_detection" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:text="Face Detection"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!--<androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cardViewTextDetection"
+            android:layout_below="@+id/cardViewFaceDetection"
+            android:foreground="?selectableItemBackground"
+            app:cardCornerRadius="5dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gradient_holo_red" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:padding="2dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_text_detection" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Text Detection"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>-->
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

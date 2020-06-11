@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kenal TAU</string>
+    <string name="home">Beranda</string>
+    <string name="courses">Penjurusan</string>
+    <string name="lecturer">Dosen</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="map">Maps</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="text_intro">
+        " Aplikasi ini adalah aplikasi sederhana untuk pengenalan kampus Tanri Abeng, bukan untuk tujuan komersial dan non profit.\n\n"
+        "Aplikasi ini bertujuan untuk mengenalkan Tanri Abeng University kepada yang belum mengetahui universitas ini.\n\n"
+        "Dan dengan adanya aplikasi semoga dapat berguna untuk yang memang membutuhkannya.\n\n"
+    </string>
+
+    <string name="large_text">
+        "SEJARAH TANRI ABENG UNIVERSITY (TAU)\n\n\n"
+        "TAU didirikan pada tanggal 07 Maret 2011 yang ditetapkan sebagai milad (hari jadi) TANRI ABENG UNIVERSITY.\n\n\n\n"
+
+
+        "SAMBUTAN REKTOR TAU\n\n\n"
+        "Selamat datang di TAU – kami memiliki komitmen untuk mempersiapkan para mahasiswa aktif berpartisipasi dalam perubahan dunia. Partisipasi yang dilakukan oleh TAU adalah dengan menyediakan program pendidikan unggulan bagi mahasiswa.\n\n"
+        "Untuk mendukung proses belajar yang baik, TAU membangun budaya belajar yang dinamis, interaktif, dan berkelanjutan serta ditunjang dengan pengajar yang profesional dan fasilitas sarana prasarana yang memadai. Dengan demikian, diharapkan lulusan TAU bisa menjadi pribadi yang siap dan bertanggung jawab dalam perannya di dalam kehidupan bermasyarakat maupun bernegara..\n"
+
+    </string>
+
+    <string name="jurusan">Jurusan</string>
+    <string name="prodi">Program Studi</string>
+    <string name="graduate">Jumlah Lulusan</string>
+    <string name="school_engineering">Sekolah Teknik</string>
+    <string name="program_sarjana">Program Sarjana</string>
+    <string name="description">Deskripsi</string>
+
+    <string name="todo">TODO</string>
+    <string name="staff_lecturer">Staf Pengajar Profesional</string>
+
+    <string name="source">Sumber resource aplikasi Kenal TAU</string>
+    <string name="website_tau">www.tau.ac.id</string>
+    <string name="story">Kami adalah sekelompok mahasiswa Tanri Abeng yang belajar dan bekerja keras untuk meraih sukses dan impian dengan mengembangkan ilmu yang telah didapat dari Universitas Tanri Abeng</string>
+    <string name="quiz_text">"Kuis TAU\n\n"
+    "Ini adalah fitur kuis untuk mengetahui sejauh mana Anda mengenal Tanri Abeng University.\n\n\n\n\n\n"
+        "Untuk mengikuti kuis ini, silahkan klik lanjut :) \n\n"</string>
+
+
+    //Kuis Disini
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/9</string>
+
+
+    <string name="incorrect_toast">Anda salah!</string>
+    <string name="correct_toast">Anda benar!</string>
+
+    <string name="question_1">Nama rektor Tanri Abeng University adalah Bapak Tanri Abeng</string>
+    <string name="question_2">Letak kampus Tanri Abeng adalah di jalan Swadarma, Jakarta Selatan.</string>
+    <string name="question_3">Dosen matakuliah Intro Mobile Programming adalah bapak Yohanes Eka</string>
+    <string name="question_4">Mahasiswa reguler Universitas Tanri abeng angkatan 2018 berjumlah ratusan</string>
+    <string name="question_5">Jumlah kelas di lantai 3 kampus Tanri Abeng adalah 7 kelas</string>
+    <string name="question_6">Jurusan di kampus Tanri Abeng hanya ada jurusan Teknik Informatika</string>
+    <string name="question_7">Tanri Abeng University memiliki fasilitas olahraga dan kolam renang</string>
+    <string name="question_8">Jumlah mahasiswa/i di kelas Executive 1 adalah 20</string>
+    <string name="question_9">Nama Ketua Prodi Engineer Informatics di Tanri Abeng University adalah bapak Johny Hizkia Siringo Ringo</string>
+    <string name="question_10">Kampus Tanri Abeng berdiri pada tahun 2016</string>
+
+
+    <string name="fitur_description">
+        "  Di Universitas Tanri Abeng dalam jurusan Engineering Informatic, salah satu mata kuliah yang dipelajari adalah Machine Learning.
+        \n"
+        " Oleh karena itulah di dalam aplikasi ini ada fitur Machine learning yaitu Face Detection."
+        "Fitur ini disinkronisasikan dengan Firebase dan merupakan salah satu fitur dari Firebase juga."</string>
+    <string name="open_camera">Open Camera</string>
+
+</resources>

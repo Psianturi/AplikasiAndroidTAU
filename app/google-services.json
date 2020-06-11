@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "937156036594",
+    "firebase_url": "https://project-posma.firebaseio.com",
+    "project_id": "project-posma",
+    "storage_bucket": "project-posma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937156036594:android:e04ff59fe1e025400fcd6b",
+        "android_client_info": {
+          "package_name": "me.posmajanius.advancemobileprogramming_uts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937156036594-oqpfaun9djjfoqgm4oj65hd6q01gs4ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.posmajanius.advancemobileprogramming_uts",
+            "certificate_hash": "3e4bcf768b4cfcfbe78bc6e51c5c006f4b138de8"
+          }
+        },
+        {
+          "client_id": "937156036594-8msb4detlrk1nihb9p3j9v95sglp2k44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.posmajanius.advancemobileprogramming_uts",
+            "certificate_hash": "edfe1d677da1f9135f7baad337d26635a35d31b3"
+          }
+        },
+        {
+          "client_id": "937156036594-o7qscf6grk2d81pjt3edsm49c17nn5ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANkPsHypWGISCHjrFUOk8VfDwQtrFllPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937156036594-o7qscf6grk2d81pjt3edsm49c17nn5ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
